@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- Déclare que le document est au format HTML5 -->
+<html lang="fr">
+<!-- Balise racine de l'HTML, avec l'attribut "lang" pour indiquer que le document est en français -->
+<head>
+    <!-- Contient les informations méta et les ressources nécessaires pour le document -->
+    <link rel="icon" type="image/png" href="drapeau.png" />
+<!-- Définit l'icône de la page dans l'onglet du navigateur -->
+    <meta charset="UTF-8">
+     <!-- Indique que le document utilise le jeu de caractères UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Définit le titre qui apparaît dans l'onglet du navigateur -->
+    <title>Projet SNT - Alexandrie</title>
+    <style>
+        /* Applique l'image du drapeau égyptien comme fond d'écran */
+        body {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg'); /* URL du drapeau égyptien */
+            background-size: contain; /* L'image garde sa taille pour éviter l'étirement */
+            background-position: center center; /* Place l'aigle au centre de l'écran */
+            background-repeat: no-repeat; /* Empêche la répétition de l'image */
+            background-attachment: fixed; /* Fixe l'image lors du défilement */
+            font-family: Arial, sans-serif; /* Définition de la police du texte */
+            color: #fff; /* Texte en blanc pour un meilleur contraste avec le fond */
+            text-align: center; /* Centrer le texte */
+            margin: 0; /* Retirer les marges par défaut */
+            padding: 0; /* Retirer le padding par défaut */
+        }
+
+        /* Conteneur principal pour le contenu */
+        .container {
+            padding: 20px; /* Espacement autour du contenu */
+            background-color: rgba(0, 0, 0, 0.7); /* Fond noir semi-transparent pour améliorer la lisibilité */
+        }
+
+        /* Style des images */
+        img {
+            max-width: 80%; /* Limite la taille des images à 80% de la largeur */
+            height: auto; /* Maintient les proportions de l'image */
+            border: 2px solid #fff; /* Bordure blanche autour des images */
+            margin: 10px 0; /* Ajoute un espacement autour des images */
+        }
+
+        /* Légende des images */
+        .legend {
+            margin-bottom: 20px; /* Espace sous les légendes */
+            font-size: 1.2em; /* Augmente la taille du texte des légendes */
+        }
+
+        /* Signature de l'auteur du projet */
+        .signature {
+            margin-top: 20px; /* Espace au-dessus de la signature */
+            font-size: 1.5em; /* Augmente la taille du texte */
+            font-weight: bold; /* Texte en gras */
+            color: #ffd700; /* Couleur dorée pour la signature */
+        }
+    </style>
+</head>
+<body>
+    <!-- Conteneur principal du contenu -->
+    <div class="container">
+        <h1>Les monuments d'Egypte </h1>
+
+        <!-- Section Bibliothèque d'Alexandrie -->
+        <h2>Bibliothèque d'Alexandrie</h2>
+        <img src="https://wp.marie-celine.com/wp-content/uploads/2021/01/bibliotheque-d-alexandrie-egypte-antique-histoire-incendie-virtuelle-.jpg" 
+             alt="Bibliothèque d'Alexandrie">
+        <p class="legend">La Bibliothèque d'Alexandrie, fondée par Ptolémée Ier, était un centre intellectuel majeur de l'Antiquité, abritant jusqu'à 700 000 ouvrages scientifiques et littéraires.</p>
+
+        <!-- Section Pyramides de Gizeh -->
+        <h2>Pyramides de Gizeh</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg" 
+             alt="Pyramides de Gizeh">
+        <p class="legend">Les Pyramides de Gizeh, construites pour les pharaons de l'Ancien Empire, sont parmi les monuments les plus emblématiques de l'Égypte antique.</p>
+
+        <!-- Section Phare d'Alexandrie -->
+        <h2>Phare d'Alexandrie</h2>
+        <img src=phare.jpg
+             alt="Phare d'Alexandrie">
+        <p class="legend">Le Phare d'Alexandrie, l'une des Sept Merveilles du monde antique, guidait les marins dans le port d'Alexandrie pendant l'Antiquité.</p>
+
+        <!-- Section Vidéo -->
+        <h2>Vidéo : L'Égypte antique</h2>
+        <iframe width="50%" height="250" src="https://www.youtube.com/embed/u1S9p3IfCV0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="legend">Regardez cette vidéo pour en savoir plus sur l'Égypte antique.</p>
+        <a href="page1.html">Clique ici pour aller à la page 1</a>
+        <!-- Signature de l'auteur du projet -->
+        <p class="signature">John Attalla, 207</p>
+    </div>
+</body>
+</html>
