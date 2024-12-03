@@ -5,86 +5,152 @@
 <head>
     <!-- Contient les informations méta et les ressources nécessaires pour le document -->
     <link rel="icon" type="image/png" href="drapeau.png" />
-<!-- Définit l'icône de la page dans l'onglet du navigateur -->
+    <!-- Définit l'icône de la page dans l'onglet du navigateur -->
+
     <meta charset="UTF-8">
-     <!-- Indique que le document utilise le jeu de caractères UTF-8 -->
+    <!-- Indique que le document utilise le jeu de caractères UTF-8 pour prendre en charge les caractères spéciaux -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Définit le titre qui apparaît dans l'onglet du navigateur -->
-    <title>Projet SNT - Alexandrie</title>
+    <!-- Règle l'affichage pour qu'il soit réactif, adapté aux tailles d'écran des appareils -->
+
+    <title>L'EGYPTE et ces monuments </title>
+    <!-- Définit le titre de la page, visible dans l'onglet du navigateur -->
+
     <style>
-        /* Applique l'image du drapeau égyptien comme fond d'écran */
+        /* Définition du style CSS pour le document */
+        
         body {
-            background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg'); /* URL du drapeau égyptien */
-            background-size: contain; /* L'image garde sa taille pour éviter l'étirement */
-            background-position: center center; /* Place l'aigle au centre de l'écran */
-            background-repeat: no-repeat; /* Empêche la répétition de l'image */
-            background-attachment: fixed; /* Fixe l'image lors du défilement */
-            font-family: Arial, sans-serif; /* Définition de la police du texte */
-            color: #fff; /* Texte en blanc pour un meilleur contraste avec le fond */
-            text-align: center; /* Centrer le texte */
-            margin: 0; /* Retirer les marges par défaut */
-            padding: 0; /* Retirer le padding par défaut */
-        }
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg');
+            /* Applique une image de fond représentant le drapeau égyptien */
+            background-size: contain;
+            /* L'image conserve ses proportions et n'est pas étirée */
+            background-position: center center;
+            /* Place l'image au centre de l'écran, horizontalement et verticalement */
+            background-repeat: no-repeat;
+            /* Empêche que l'image de fond se répète */
+            background-attachment: fixed;
+            /* Garde l'image fixe même lors du défilement de la page */
+            font-family: Arial, sans-serif;
+            /* Définit une police simple et lisible */
+            color: #fff;
+            /* Définit la couleur du texte en blanc */
+            text-align: center;
+            /* Centre tout le texte horizontalement */
+            margin: 0;
+            /* Supprime les marges par défaut du corps de la page */
+            padding: 0;
+            /* Supprime le padding par défaut du corps de la page */
 
-        /* Conteneur principal pour le contenu */
+/* Style du conteneur de la page */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style du bouton */
+.button {
+            margin-top: 10px;
+            padding: 10px 10px;
+            background-color: #AFADAD;
+            color: #000;
+            font-size: 1em;
+            text-decoration: none;
+            border-radius: 50px;
+    transition: background-color 0.3s; /* Animation de changement de couleur au survol */
+}
+
+/* Changement de couleur lors du survol */
+.button:hover {
+    background-color: #45a049; /* Change la couleur de fond au survol */
+}
+
+
         .container {
-            padding: 20px; /* Espacement autour du contenu */
-            background-color: rgba(0, 0, 0, 0.7); /* Fond noir semi-transparent pour améliorer la lisibilité */
+            padding: 20px;
+            /* Ajoute un espace intérieur autour du contenu */
+            background-color: rgba(0, 0, 0, 0.7);
+            /* Ajoute un fond noir semi-transparent pour améliorer la lisibilité du texte */
         }
 
-        /* Style des images */
         img {
-            max-width: 80%; /* Limite la taille des images à 80% de la largeur */
-            height: auto; /* Maintient les proportions de l'image */
-            border: 2px solid #fff; /* Bordure blanche autour des images */
-            margin: 10px 0; /* Ajoute un espacement autour des images */
+            max-width: 80%;
+            /* Limite la largeur maximale des images à 80% de la taille de l'écran */
+            height: auto;
+            /* Ajuste automatiquement la hauteur pour garder les proportions */
+            border: 2px solid #fff;
+            /* Ajoute une bordure blanche autour des images */
+            margin: 10px 0;
+            /* Ajoute un espacement vertical autour des images */
         }
 
-        /* Légende des images */
         .legend {
-            margin-bottom: 20px; /* Espace sous les légendes */
-            font-size: 1.2em; /* Augmente la taille du texte des légendes */
+            margin-bottom: 20px;
+            /* Ajoute un espacement sous chaque légende */
+            font-size: 1.2em;
+            /* Augmente légèrement la taille du texte des légendes */
         }
 
-        /* Signature de l'auteur du projet */
         .signature {
-            margin-top: 20px; /* Espace au-dessus de la signature */
-            font-size: 1.5em; /* Augmente la taille du texte */
-            font-weight: bold; /* Texte en gras */
-            color: #ffd700; /* Couleur dorée pour la signature */
+            margin-top: 20px;
+            /* Ajoute un espacement au-dessus de la signature */
+            font-size: 1.5em;
+            /* Augmente la taille du texte pour mettre en avant la signature */
+            font-weight: bold;
+            /* Rend la signature en gras */
+            color: #ffd700;
+            /* Applique une couleur dorée à la signature */
         }
     </style>
 </head>
 <body>
-    <!-- Conteneur principal du contenu -->
+    <!-- Contenu principal de la page -->
     <div class="container">
-        <h1>Les monuments d'Egypte </h1>
+        <!-- Début du conteneur principal -->
+        <h1>Les monuments d'Egypte</h1>
+        <!-- Titre principal de la page -->
 
-        <!-- Section Bibliothèque d'Alexandrie -->
         <h2>Bibliothèque d'Alexandrie</h2>
-        <img src="https://wp.marie-celine.com/wp-content/uploads/2021/01/bibliotheque-d-alexandrie-egypte-antique-histoire-incendie-virtuelle-.jpg" 
+        <!-- Sous-titre pour la section dédiée à la Bibliothèque d'Alexandrie -->
+        <img  width="50%" height="250"src="https://wp.marie-celine.com/wp-content/uploads/2021/01/bibliotheque-d-alexandrie-egypte-antique-histoire-incendie-virtuelle-.jpg" 
              alt="Bibliothèque d'Alexandrie">
-        <p class="legend">La Bibliothèque d'Alexandrie, fondée par Ptolémée Ier, était un centre intellectuel majeur de l'Antiquité, abritant jusqu'à 700 000 ouvrages scientifiques et littéraires.</p>
+        <!-- Image représentant la Bibliothèque d'Alexandrie -->
+        <p class="legend">
+            La Bibliothèque d'Alexandrie, fondée par Ptolémée Ier, était un centre intellectuel majeur de l'Antiquité, abritant jusqu'à 700 000 ouvrages scientifiques et littéraires.
+        </p>
+        <!-- Légende pour expliquer l'importance de la Bibliothèque d'Alexandrie -->
 
-        <!-- Section Pyramides de Gizeh -->
         <h2>Pyramides de Gizeh</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg" 
+        <!-- Sous-titre pour la section dédiée aux Pyramides de Gizeh -->
+        <img  width="50%" height="250"src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg" 
              alt="Pyramides de Gizeh">
-        <p class="legend">Les Pyramides de Gizeh, construites pour les pharaons de l'Ancien Empire, sont parmi les monuments les plus emblématiques de l'Égypte antique.</p>
+        <!-- Image représentant les Pyramides de Gizeh -->
+        <p class="legend">
+            Les Pyramides de Gizeh, construites pour les pharaons de l'Ancien Empire, sont parmi les monuments les plus emblématiques de l'Égypte antique.
+        </p>
+        <!-- Légende pour expliquer l'importance des Pyramides de Gizeh -->
 
-        <!-- Section Phare d'Alexandrie -->
         <h2>Phare d'Alexandrie</h2>
-        <img src=phare.jpg
-             alt="Phare d'Alexandrie">
-        <p class="legend">Le Phare d'Alexandrie, l'une des Sept Merveilles du monde antique, guidait les marins dans le port d'Alexandrie pendant l'Antiquité.</p>
+        <!-- Sous-titre pour la section dédiée au Phare d'Alexandrie -->
+        <img  width="50%" height="250"src="phare.jpg" alt="Phare d'Alexandrie">
+        <!-- Image représentant le Phare d'Alexandrie (lien vers une image locale) -->
+        <p class="legend">
+            Le Phare d'Alexandrie, l'une des Sept Merveilles du monde antique, guidait les marins dans le port d'Alexandrie pendant l'Antiquité.
+        </p>
+        <!-- Légende pour expliquer l'importance du Phare d'Alexandrie -->
 
-        <!-- Section Vidéo -->
         <h2>Vidéo : L'Égypte antique</h2>
-        <iframe width="50%" height="250" src="https://www.youtube.com/embed/u1S9p3IfCV0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Sous-titre pour la section contenant une vidéo sur l'Égypte antique -->
+        <iframe  width="50%" height="250" src="https://www.youtube.com/embed/u1S9p3IfCV0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Vidéo intégrée provenant de YouTube -->
         <p class="legend">Regardez cette vidéo pour en savoir plus sur l'Égypte antique.</p>
-        <a href="page1.html">Clique ici pour aller à la page 1</a>
-        <!-- Signature de l'auteur du projet -->
+        <!-- Légende de la vidéo -->
+
+        <a href="page1.html" class="button">Clique ici pour aller à la page 1</a> 
+        <!-- Lien hypertexte permettant d'accéder à une autre page du projet -->
+
         <p class="signature">John Attalla, 207</p>
+        <!-- Signature de l'auteur du projet -->
     </div>
 </body>
 </html>
+
