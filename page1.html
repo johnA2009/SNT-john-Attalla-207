@@ -38,57 +38,79 @@
         .legend {
             font-size: 1.2em;
             margin-bottom: 20px;
-        }
-
-        /* Bouton pour revenir à la page principale */
-        .back-button {
-            margin-top: 10px;
-            padding: 10px 10px;
-            background-color: #AFADAD;
-            color: #000;
-            font-size: 1em;
-            text-decoration: none;
-            border-radius: 50px;
-    position: absolute;
-    bottom /* Distance depuis le haut */
-    left /* Distance depuis la gauche */
+ }           
+/* Bouton pour revenir à la page principale */
+.back-button {
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: #AFADAD;
+    color: #000;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    position: fixed; /* Position fixe pour qu'il reste visible en bas */
+    bottom: 10px; /* Distance depuis le bas */
+    left: 10px; /* Distance depuis la gauche */
 }
+
+/* Changement de couleur lors du survol */
 .back-button:hover {
     background-color: #45a049; /* Change la couleur de fond au survol */
 }
 
+/* Bouton 2 */
+.button2 {
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: #AFADAD;
+    color: #000;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    position: fixed; /* Position fixe pour qu'il reste visible en bas */
+    bottom: 10px; /* Distance depuis le bas */
+    right: 10px; /* Distance depuis la droite */
 }
 
-        }
+/* Changement de couleur lors du survol */
+.button2:hover {
+    background-color: #45a049; /* Change la couleur de fond au survol */
+}
 
-        .back-button:hover {
-            background-color: #e6c300;
-        }
+
+
+
     </style>
 </head>
 <body>
     <div class="container">
 
+        <h1>Les specialite egyptienne</h1>
+
         <h1>Falafels Égyptiens</h1>
+        
         <img width="50%" height="250"src="Falafels Égyptiens.JPG" 
-             alt="Falafels">
+             alt="">
         <p class="legend">Les falafels sont de délicieuses boulettes à base de pois chiches ou de fèves, parfumées avec des épices. Ce plat est une spécialité populaire en Égypte et dans tout le Moyen-Orient. Traditionnellement, ils sont servis avec du pain pita, des légumes frais et une sauce tahini.</p>
 
-        <h2>Mouloukhya</h2>
+        <h1>Mouloukhya</h1>
         <img width="50%" height="250"src="Mouloukhya.JPG" 
-             alt="Falafels">
+             alt="">
         <p class="legend">La mloukhiya ou mloukhia, aussi appelée mouloukhiya est un plat populaire en EGYPTE L'ingrédient principal de la mloukhiya est Les feuilles sont parfois séchées et soit laissées entières soit réduites en poudre2 de couleur verte, facile à conserver. Au Moyen-Orient</p>
 
-         <h3>Le foul</h3>
+         <h1>Le foul</h1>
         <img width="50%" height="250"src="Le foul.JPG" 
-             alt="Falafels">
+             alt="">
         <p class="legend">Aussi appelé Full Mesdames ou Foul Mudammas en arabe, le foul est un plat national égyptien et l’un des plus populaires du pays. Les locaux l’affectionnent particulièrement à l’heure du petit-déjeuner. Il s’agit d’une préparation à base de fèves sèches et bouillies que l’on sert chaud avec de l’huile, du sel et du citron. Il se mange traditionnellement accompagné d’un pain comme une galette dans laquelle on peut aussi ajouter d’autres ingrédients comme de la sauce tomate, du tahini (crème de sésame), des œufs et bien d’autres encore...</p>
 
-        <h4>Le kochari</h4>
+        <h1>Le kochari</h1>
         <img width="50%" height="250"src="Le kochari.JPG" 
-             alt="Falafels">
+             alt="">
         <p class="legend">le kochari ou koschari. Aussi étonnant que cela puisse paraître pour des occidentaux, ce plat associe plusieurs féculents puisqu’on y retrouve à la fois du riz, des pâtes et des lentilles que l’on relève à l’aide d’une sauce tomate, d’oignons, de vinaigre d’ail et de pois chiches. Certains y ajoutent également une sauce pimentée.
         <a href="index.html" class="back-button">Retour à la page principale</a>
+         <a href="page2.html" class="button2">Clique ici pour aller à la page 2</a> 
     </div>
 </body>
 </html>
