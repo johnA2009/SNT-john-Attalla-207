@@ -19,9 +19,9 @@ Les éléments sont disposés de manière claire, avec des titres pour chaque se
 Pour le design, j'ai fait des choix simples mais significatifs :
 
 Le fond d'écran représente le drapeau égyptien, avec son aigle doré au centre. Ce choix symbolise l'identité nationale égyptienne et la tenue de l'attention du visiteur.
-Les couleurs dominantes sont le blanc pour le texte et le noir transparent pour les encadrés, ce qui permet de bien faire ressortir le contenu sur le fond.
+Les couleurs principales, comme le blanc pour le texte et le noir transparent pour les encadrés, ont été choisies pour s'accorder harmonieusement avec les couleurs du drapeau qui est utilisé comme fond. Ces choix créent une continuité visuelle et mettent en valeur le contenu du site.
 Les politiques choisies sont simples et modernes (Arial, sans-serif) pour une lecture facile.
-La taille et la disposition des images ont été optimisées pour rendre le site visuelment agréable tout en respectant les proportions des contenus.
+Les images ont été intégrées de manière équilibrée, avec des tailles adaptées pour ne pas surcharger les pages, tout en assurant leur mise en avant.
 Ces choix visuels offrent à créer une ambiance immersive qui reflète bien le sujet du site.
 
 4. Les fonctionnalités supplémentaires
