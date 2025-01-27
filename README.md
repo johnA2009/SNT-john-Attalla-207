@@ -35,3 +35,11 @@ Pendant la réalisation de ce projet, j'ai rencontré plusieurs défis :
 La gestion du HTML et du CSS : J'ai eu du mal à séparer correctement le code HTML (contenu) et CSS (design). Finalement, j'ai intégré tout le code sur une seule page pour simplifier le processus.
 Les sauvegardes : Une autre difficulté était de sauvegarder régulièrement mes modifications. J'ai parfois oublié de le faire, ce qui m'a obligé à recommencer certains éléments. Cela m'a appris l'importance de travailler méthodiquement.
 L'organisation des images et textes : Il fallait trouver un bon équilibre pour que le site soit clair et esthétique, tout en respectant les proportions et l'alignement des contenus.
+
+
+[HTML SNT CSS.pdf](https://github.com/user-attachments/files/18564193/HTML.SNT.CSS.pdf)
+
+
+
+
+
